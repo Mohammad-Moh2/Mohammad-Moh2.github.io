@@ -13,19 +13,20 @@ You are discouraged from changing any provided CSS.
 
 */
 
-
 /************* site defaults *************/
 body {
-    width: 950px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+  width: 950px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
-
+.flex {
+  display: flex;
+  padding: 12px;
+  flex-wrap: wrap;
+  flex-grow: unset;
+}
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
-
-
- 
 
 /************* site-wide text styling *************/
 
@@ -42,13 +43,6 @@ body {
         - change the cursor to pointer.
 */
 
-
-
-
-
-
-
-
 /************* header/footer styling *************/
 
 /* TO DO:
@@ -59,11 +53,6 @@ body {
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 
-
-
-
-
-
 /************* index page *************/
 
 /* TO-DO: 
@@ -73,11 +62,6 @@ body {
     - each fake-button on this page will be 250px wide with 150px of space between them.
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
-
-
-
-
-
 
 /************* bookings page *************/
 
@@ -93,18 +77,6 @@ body {
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
@@ -113,7 +85,3 @@ body {
     - all form input, textarea, and and button elements will have the same font as the rest of the page, a line-height of 24px, a font-size of 16px, and the same border as other buttons on the site. There will be 24px of space below each of these elements.
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
-
-
-
-
